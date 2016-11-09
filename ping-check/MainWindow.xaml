@@ -12,5 +12,5 @@
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
-    <TextBlock />
+    <TextBlock Text="{Binding Text}" />
 </Window>
