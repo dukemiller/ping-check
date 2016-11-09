@@ -4,9 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:ping_check"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Title="MainWindow"
-        Width="525"
-        Height="350"
+        Title="Ping"
+        Width="180"
+        Height="70"
+        ResizeMode="NoResize"
         mc:Ignorable="d">
     <Window.DataContext>
         <local:MainWindowViewModel />

@@ -1,12 +1,17 @@
 ﻿<Application x:Class="ping_check.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ping_check"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="Background" Value="Black" />
             <Setter Property="Foreground" Value="#FF8EFD09" />
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="FontFamily" Value="Consolas" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
     </Application.Resources>
 </Application>
